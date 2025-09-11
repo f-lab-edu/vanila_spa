@@ -1,0 +1,12 @@
+{
+  "name": "vanila-spa",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "cp index.html dist/ && cd dist && npx serve  . "
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
